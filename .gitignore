@@ -594,4 +594,29 @@ hs_err_pid*
 
 !/gradle/wrapper/gradle-wrapper.jar
 
+### Ionic project
+
+*.sw[mnpcod]
+.tmp
+*.tmp
+*.tmp.*
+*.sublime-project
+*.sublime-workspace
+UserInterfaceState.xcuserstate
+$RECYCLE.BIN/
+log.txt
+
+/.idea
+/.ionic
+/.sass-cache
+/.sourcemaps
+/.versions
+/.vscode
+/coverage
+/dist
+/node_modules
+/platforms
+/plugins
+/www
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,node,webstorm,angular,android,androidstudio,xcode,intellij
