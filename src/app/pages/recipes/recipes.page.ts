@@ -1,5 +1,4 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Subscription } from 'rxjs';
 import { Paths } from '../../app-routing.module';
 import { RecipesService } from '../../services/recipes/recipes.service';
 import { IRecipe } from './recipes.model';
@@ -11,21 +10,24 @@ import { IRecipe } from './recipes.model';
 })
 export class RecipesPage implements OnInit, OnDestroy {
   recipes: IRecipe[];
-  recipesSubscription: Subscription | undefined;
+  // recipesSubscription: Subscription | undefined;
   pathRecipes: Paths = Paths.RECIPES;
 
   constructor(private recipesService: RecipesService) {}
 
   ngOnInit() {
-    this.recipesSubscription = this.recipesService.recipesChanged.subscribe(
-      (recipes) => {
-        this.recipes = recipes;
-      }
-    );
-    this.recipesService.getAllRecipes();
+    // this.recipesSubscription = this.recipesService.recipesChanged.subscribe(
+    //   (recipes) => {
+    //     this.recipes = recipes;
+    //   }
+    // );
+  }
+
+  ionViewWillEnter() {
+    this.recipes = this.recipesService.getAllRecipes();
   }
 
   ngOnDestroy(): void {
-    this.recipesSubscription.unsubscribe();
+    // this.recipesSubscription.unsubscribe();
   }
 }
