@@ -74,6 +74,8 @@ yarn run prettier:write
 - [Running the App on iOS](https://ionicframework.com/docs/building/ios)
 - [Running the App on Android](https://ionicframework.com/docs/building/android)
 - [Official Capacitor Docs](https://capacitor.ionicframework.com/)
+- [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/)
+- [Safari Web Inspector](https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/Web_Inspector_Tutorial/Introduction/Introduction.html#//apple_ref/doc/uid/TP40017576-CH1-SW1)
 
 ## Android Config:
 
