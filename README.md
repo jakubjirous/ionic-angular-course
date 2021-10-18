@@ -71,6 +71,9 @@ yarn run prettier:write
 - [Udemy](https://www.udemy.com/course/ionic-2-the-practical-guide-to-building-ios-android-apps)
 - [Prettier](https://prettier.io/)
 - [Ionic components](https://ionicframework.com/docs/components/)
+- [Running the App on iOS](https://ionicframework.com/docs/building/ios)
+- [Running the App on Android](https://ionicframework.com/docs/building/android)
+- [Official Capacitor Docs](https://capacitor.ionicframework.com/)
 
 ## Android Config:
 
