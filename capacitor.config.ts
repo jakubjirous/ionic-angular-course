@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'cz.jirous.jakub.ionic.angular.course',
-  appName: 'ionic-angular-course',
+  appId: 'cz.jirous.jakub.ionic.angular.recipes',
+  appName: 'Recipes',
   webDir: 'www',
   bundledWebRuntime: false,
 };

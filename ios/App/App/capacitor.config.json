@@ -1,9 +1,6 @@
 {
-	"appId": "cz.jirous.jakub.ionic.angular.course",
-	"appName": "ionic-angular-course",
+	"appId": "cz.jirous.jakub.ionic.angular.recipes",
+	"appName": "Recipes",
 	"webDir": "www",
-	"bundledWebRuntime": false,
-	"server": {
-		"url": "http://10.0.0.233:8101"
-	}
+	"bundledWebRuntime": false
 }

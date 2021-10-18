@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package cz.jirous.jakub.ionic.angular.recipes;
 
 import com.getcapacitor.BridgeActivity;
 
