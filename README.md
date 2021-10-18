@@ -71,3 +71,10 @@ yarn run prettier:write
 - [Udemy](https://www.udemy.com/course/ionic-2-the-practical-guide-to-building-ios-android-apps)
 - [Prettier](https://prettier.io/)
 - [Ionic components](https://ionicframework.com/docs/components/)
+
+## Android Config:
+
+File – Project Structures:
+
+- **Android Gradle Plugin Version:**: `4.0.1`
+- **Gradle Version:** `6.1.1` 
