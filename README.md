@@ -57,6 +57,17 @@ ionic cap add ios
 ionic cap build
 ```
 
+### Pretier
+
+- An opinionated code formatter
+
+```
+yarn run prettier:list
+yarn run prettier:write
+```
+
 ## Links:
 
 - [Udemy](https://www.udemy.com/course/ionic-2-the-practical-guide-to-building-ios-android-apps)
+- [Prettier](https://prettier.io/)
+- [Ionic components](https://ionicframework.com/docs/components/)
