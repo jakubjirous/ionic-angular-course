@@ -9,12 +9,7 @@ import { RecipesPageRoutingModule } from './recipes-routing.module';
 import { RecipesPage } from './recipes.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    RecipesPageRoutingModule
-  ],
-  declarations: [RecipesPage]
+  imports: [CommonModule, FormsModule, IonicModule, RecipesPageRoutingModule],
+  declarations: [RecipesPage],
 })
 export class RecipesPageModule {}

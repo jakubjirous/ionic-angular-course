@@ -9,7 +9,23 @@ const routes: Routes = [
   },
   {
     path: 'recipes',
-    loadChildren: () => import('./pages/recipes/recipes.module').then(m => m.RecipesPageModule)
+    children: [
+      {
+        path: '',
+        // page lazy loading
+        loadChildren: () =>
+          import('./pages/recipes/recipes.module').then(
+            (m) => m.RecipesPageModule
+          ),
+      },
+      {
+        path: ':recipeId',
+        loadChildren: () =>
+          import('./pages/recipe-detail/recipe-detail.module').then(
+            (m) => m.RecipeDetailPageModule
+          ),
+      },
+    ],
   },
 ];
 
@@ -19,5 +35,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
 })
-export class AppRoutingModule {
-}
+export class AppRoutingModule {}
